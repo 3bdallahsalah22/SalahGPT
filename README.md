@@ -26,5 +26,5 @@
 
 ## 6. Run the app:
    ```bash
-   python run.app
+    python -m uvicorn App.app:app --reload --port 8080
    ```
